@@ -61,6 +61,6 @@ VList VList::createOutList(const size_t& u, bool stackMember[]) {
 		stackMember[w] = false;
 		vList[--n] = 0;
 		return result;
-	}
-	return VList(0);
+	} else
+		return VList(0);
 }
