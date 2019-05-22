@@ -72,16 +72,18 @@ bool GrL::addArc(size_t i, size_t j) {
 }
 
 VList GrL::neighbors(size_t v) {
-	VList L(77);
 	size_t seek = A[v];
-	if (seek != INT_MAX)
-		while(true) {
+	if (seek != INT_MAX) {
+		VList L(77);
+		while (true) {
 			L.add(B[seek].v);
 			seek = B[seek].next;
 			if (seek >= INT_MAX)
 				break;
 		}
-	return L;
+		return L;
+	} else
+		return VList(0);
 }
 
 void GrL::resizeB() {
