@@ -30,7 +30,7 @@ bool GrL::create(size_t _n) {
 		return false;
 	} else
 		for (size_t i = 0; i < _nMax; ++i)
-			B->v = B->next = INT_MAX;
+			B[i].v = B[i].next = INT_MAX;
 	return true;
 }
 
