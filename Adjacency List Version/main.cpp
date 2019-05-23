@@ -45,7 +45,6 @@ int main() {
 			if (outputS.fail())
 				continue;
 
-			//std::vector <VList> outVlist(grMat.getN());
 			std::vector <VList> outVlist;
 			std::clock_t timeStart = std::clock();
 			grList.SCC(outVlist); // problem solving method // finds Strongly Connected Components
