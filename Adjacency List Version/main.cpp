@@ -54,7 +54,6 @@ int main() {
 			for (auto&& i : outVlist)
 				i.output(outputS);
 
-
 			std::cout << "Output in list, CPU time used: " << formatTime(timeEnd - timeStart) << std::endl;
 			generalTimeList += (timeEnd - timeStart);
 			std::cout << "General list processing time: " << formatTime(generalTimeList) << std::endl << std::endl;
