@@ -3,7 +3,7 @@
 #include <fstream>
 #include <string>
 #include <ctime>
-#include<vector>
+#include <vector>
 #define NOMINMAX
 #include <Windows.h>
 
