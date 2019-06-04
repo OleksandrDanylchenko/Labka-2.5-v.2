@@ -71,12 +71,12 @@ int main() {
 
 void studentInfo() {
 	std::cout << "Laboratory work 2 - 5 v.2 Graphs Processing\n" <<
-				 "Group: K-14 Danilchenko Alexander" << std::endl;
+		     "Group: K-14 Danilchenko Alexander" << std::endl;
 }
 
 void labInfo() {
 	std::cout << "\nThis programm reads information about graph from the input file and converts it to an adjacency matrix" <<
-				 "\nAfter that it searches strongly connected components" << std::endl;
+		     "\nAfter that it searches strongly connected components" << std::endl;
 }
 
 std::string getFilePath(char ioVar) {
