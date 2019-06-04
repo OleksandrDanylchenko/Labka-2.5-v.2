@@ -17,9 +17,9 @@ std::string getFilePath(char);
 std::string formatTime(std::clock_t);
 
 int main() {
-	//system("mode con COLS=700");
-	//ShowWindow(GetConsoleWindow(), SW_MAXIMIZE);
-	//SendMessage(GetConsoleWindow(), WM_SYSKEYDOWN, VK_RETURN, 0x20000000);
+	system("mode con COLS=700");
+	ShowWindow(GetConsoleWindow(), SW_MAXIMIZE);
+	SendMessage(GetConsoleWindow(), WM_SYSKEYDOWN, VK_RETURN, 0x20000000);
 
 	studentInfo();
 	labInfo();
